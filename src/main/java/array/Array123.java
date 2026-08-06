@@ -17,6 +17,24 @@ public class Array123 {
 		{
 			System.out.println(name[i]);
 		}
+		
+		//city
+		
+		String[] city = {"Siwan", "Delhi", "Patna", "Hyderabad"};
+		
+		for(int i=0; i<city.length; i++) {
+			
+			System.out.println(city[i]);
+		}
+		
+		//course 
+		
+		String[] course = {"selenium", "java", "c++"};
+		
+		for(String c : course) {
+			
+			System.out.println(c);
+		}
 	}
 
 }
