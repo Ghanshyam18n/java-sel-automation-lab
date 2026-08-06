@@ -10,5 +10,13 @@ public class Array12 {
 			
 			System.out.println(marks[i]);
 		}
+		
+		//using enhanced for loop
+		System.err.println("Enhanced For Loop");
+		
+		for(int res : marks) {
+			
+			System.out.println(res);
+		}
 	}
 }
