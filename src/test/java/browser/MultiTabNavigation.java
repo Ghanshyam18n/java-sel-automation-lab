@@ -11,15 +11,22 @@ public class MultiTabNavigation {
 		String[] urls = 
 		
 			{	
-		        "https://samsung.com",
+		        "https://www.india.gov.in/",
 		        "https://github.com/Ghanshyam18n"
 		   };
 		
+	    boolean firsturl = true;
+	    
 		for(String url : urls) {
 			
+			if(!firsturl) {
 			driver.switchTo().newWindow(WindowType.TAB);
+			}
+			
 			System.out.println("Launch "+url);
 			driver.get(url);
+			firsturl = false;
+			
 
 		}
 	}
