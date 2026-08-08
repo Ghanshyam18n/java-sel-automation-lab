@@ -23,7 +23,7 @@ public class UserLoginTest {
 	    		//enter staff ID and password
 	    	}
 	    	else if(user.equals("Client")) {
-	    		// enter client id and password
+	    		// enter client p
 	    	}
 	    }
 	}
