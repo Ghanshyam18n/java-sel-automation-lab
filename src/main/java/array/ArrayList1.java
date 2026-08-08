@@ -20,11 +20,22 @@ public class ArrayList1 {
 		
 		System.out.println(a.get(2));
 		
-		System.out.println("\nAdded for loop for retrieval");
+		// retrieval using enhanced for loop
 		
-		for(String s : a) {
-			System.out.println(s);
+		System.out.println("\nAdded for loop for retrieval ");
+		
+		for(String value : a) {
+			System.out.println(value);
 		}
+		
+	//	-------------------------------------------------
+		// retrieval using for loop
+		
+		//in arrayList to get the size cannot use length
+		for(int i = 0; i<a.size(); i++) {
+			System.out.println(a.get(i));
+		}
+			
 	}
 
 }
