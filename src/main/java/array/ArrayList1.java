@@ -28,13 +28,23 @@ public class ArrayList1 {
 			System.out.println(value);
 		}
 		
+		System.out.println("----------------------");
+		
 	//	-------------------------------------------------
+		
 		// retrieval using for loop
 		
 		//in arrayList to get the size cannot use length
 		for(int i = 0; i<a.size(); i++) {
 			System.out.println(a.get(i));
 		}
+		
+		System.out.println("------------------------------");
+		
+		// check item is present in arraylist 
+		// in normal array we don't have contains method
+		
+		System.out.println(a.contains("shyam"));
 			
 	}
 
