@@ -11,7 +11,11 @@ public class LauchUrls {
 		String[] urls = {
 				"https://google.com.com",
 				"https://github.com/Ghanshyam18n",
-				"https://samsung.com"
+				"https://samsung.com",
+				"https://fb.com",
+				"https://instagram.com",
+				"https://jio.com"
+				
 		};
 		
 		for(String url : urls) {
