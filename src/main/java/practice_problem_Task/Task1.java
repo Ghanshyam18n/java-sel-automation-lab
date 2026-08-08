@@ -18,5 +18,12 @@ public class Task1 {
 			
 			System.out.println(name);
 		}
+		
+		System.out.println("\nPrint first browser name from array");
+		
+	     for(String name : browser) {
+	    	 System.out.println(name);
+	    	 break;
+	     }
 	}
 }
