@@ -19,6 +19,12 @@ public class ArrayList1 {
 		a.remove(2);
 		
 		System.out.println(a.get(2));
+		
+		System.out.println("\nAdded for loop for retrieval");
+		
+		for(String s : a) {
+			System.out.println(s);
+		}
 	}
 
 }
