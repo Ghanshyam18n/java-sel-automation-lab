@@ -1,4 +1,4 @@
-package practice_problem_Task;
+package practice_problem_task;
 
 /*
 Task 1
