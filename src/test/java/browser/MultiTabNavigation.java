@@ -26,8 +26,6 @@ public class MultiTabNavigation {
 			System.out.println("Launch "+url);
 			driver.get(url);
 			firsturl = false;
-			
-
 		}
 	}
 
